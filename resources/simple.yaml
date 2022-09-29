@@ -18,3 +18,14 @@ spec:
     ref:
       branch: main
     url: https://github.com/matt-dres/simple-web-app
+---
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: where-for-dinner
+spec:
+  git:
+    ref:
+      branch: main
+    url: https://github.com/vmware-tanzu/application-accelerator-samples
+    subPath: where-for-dinner/
